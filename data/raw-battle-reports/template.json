@@ -1,0 +1,109 @@
+{
+  "schema_version": 2,
+  "report_id": "",
+  "game_version": "",
+  "server": "",
+  "date": "YYYY-MM-DD",
+  "notes": "",
+  "attacker": {
+    "tech_known": true,
+    "tech": {
+      "weapon": { "player": 0, "alliance": 0, "buff": 0 },
+      "shield": { "player": 0, "alliance": 0, "buff": 0 },
+      "armor": { "player": 0, "alliance": 0, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 0,
+      "battleship": 0,
+      "bomber": 0,
+      "dreadnought": 0,
+      "destroyer": 0,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "defender": {
+    "tech_known": true,
+    "planet_skin": "none",
+    "tech": {
+      "weapon": { "player": 0, "alliance": 0, "buff": 0 },
+      "shield": { "player": 0, "alliance": 0, "buff": 0 },
+      "armor": { "player": 0, "alliance": 0, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 0,
+      "battleship": 0,
+      "bomber": 0,
+      "dreadnought": 0,
+      "destroyer": 0,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "outcome": {
+    "winner": "attacker",
+    "rounds": [
+      {
+        "round": 1,
+        "attacker": {
+          "losses": {},
+          "number_of_attack": 0,
+          "current_damage": 0,
+          "shield_absorption": 0,
+          "wreck": 0
+        },
+        "defender": {
+          "losses": {},
+          "number_of_attack": 0,
+          "current_damage": 0,
+          "shield_absorption": 0,
+          "wreck": 0
+        }
+      }
+    ],
+    "survivors": {
+      "attacker": {},
+      "defender": {}
+    },
+    "debris": {
+      "metal": 0,
+      "crystal": 0
+    }
+  }
+}

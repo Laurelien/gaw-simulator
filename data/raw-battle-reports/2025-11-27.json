@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "report_id": "3",
+  "game_version": "1",
+  "server": "Oracle",
+  "date": "2025-11-27",
+  "notes": "Masterminion1.0 vs GrandyZero",
+  "attacker": {
+    "tech_known": true,
+    "tech": {
+      "weapon": { "player": 200, "alliance": 70, "buff": 0 },
+      "shield": { "player": 200, "alliance": 70, "buff": 0 },
+      "armor": { "player": 200, "alliance": 70, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 5000,
+      "battleship": 10000,
+      "bomber": 0,
+      "dreadnought": 20000,
+      "destroyer": 0,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "defender": {
+    "tech_known": true,
+    "planet_skin": "none",
+    "tech": {
+      "weapon": { "player": 200, "alliance": 70, "buff": 0 },
+      "shield": { "player": 200, "alliance": 70, "buff": 0 },
+      "armor": { "player": 200, "alliance": 70, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 0,
+      "battleship": 0,
+      "bomber": 0,
+      "dreadnought": 0,
+      "destroyer": 0,
+      "death_star": 56,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 27,
+      "light_laser": 35,
+      "heavy_laser": 40,
+      "gauss_cannon": 14,
+      "ion_cannon": 0,
+      "plasma_turret": 4,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "outcome": {
+    "winner": "attacker",
+    "rounds": [
+      {
+        "round": 1,
+        "attacker": {
+          "losses": {
+            "cruiser": 123,
+            "battleship": 302,
+            "dreadnought": 590
+          },
+          "number_of_attack": 34783,
+          "current_damage": 97703680,
+          "shield_absorption": 10394818,
+          "wreck": 120
+        },
+        "defender": {
+          "losses": {
+            "rocket_launcher": 27,
+            "light_laser": 35,
+            "heavy_laser": 40,
+            "gauss_cannon": 14,
+            "plasma_turret": 4
+          },
+          "number_of_attack": 1148,
+          "current_damage": 760879322,
+          "shield_absorption": 1183031,
+          "wreck": 1015
+        }
+      },
+      {
+        "round": 2,
+        "attacker": {
+          "losses": {
+            "cruiser": 136,
+            "battleship": 271,
+            "dreadnought": 503
+          },
+          "number_of_attack": 29108,
+          "current_damage": 86154500,
+          "shield_absorption": 10360000,
+          "wreck": 56
+        },
+        "defender": {
+          "losses": {
+            "death_star": 56
+          },
+          "number_of_attack": 922,
+          "current_damage": 682280000,
+          "shield_absorption": 970140,
+          "wreck": 910
+        }
+      }
+    ],
+    "survivors": {
+      "attacker": {},
+      "defender": {}
+    },
+    "debris": {
+      "metal": 71884500,
+      "crystal": 58164600
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "report_id": "5",
+  "game_version": "1",
+  "server": "Menelaus",
+  "date": "2026-08-17",
+  "notes": "Laurelien vs Azylum to test RF",
+  "attacker": {
+    "tech_known": true,
+    "tech": {
+      "weapon": { "player": 200, "alliance": 70, "buff": 0 },
+      "shield": { "player": 200, "alliance": 45, "buff": 0 },
+      "armor": { "player": 200, "alliance": 42, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 1000,
+      "battleship": 0,
+      "bomber": 0,
+      "dreadnought": 0,
+      "destroyer": 0,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "defender": {
+    "tech_known": true,
+    "planet_skin": "none",
+    "tech": {
+      "weapon": { "player": 140, "alliance": 12, "buff": 0 },
+      "shield": { "player": 140, "alliance": 10, "buff": 0 },
+      "armor": { "player": 140, "alliance": 10, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 0,
+      "light_fighter": 0,
+      "heavy_fighter": 0,
+      "cruiser": 0,
+      "battleship": 0,
+      "bomber": 0,
+      "dreadnought": 0,
+      "destroyer": 0,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 5000,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "outcome": {
+    "winner": "attacker",
+    "rounds": [
+      {
+        "round": 1,
+        "attacker": {
+          "losses": {},
+          "number_of_attack": 9693,
+          "current_damage": 1435640,
+          "shield_absorption": 215600,
+          "wreck": 4312
+        },
+        "defender": {
+          "losses": {
+            "rocket_launcher": 4312
+          },
+          "number_of_attack": 5000,
+          "current_damage": 1005000,
+          "shield_absorption": 171484,
+          "wreck": 0
+        }
+      },
+      {
+        "round": 2,
+        "attacker": {
+          "losses": {},
+          "number_of_attack": 9523,
+          "current_damage": 14094040,
+          "shield_absorption": 34400,
+          "wreck": 688
+        },
+        "defender": {
+          "losses": {
+            "rocket_launcher": 688
+          },
+          "number_of_attack": 688,
+          "current_damage": 138288,
+          "shield_absorption": 85828,
+          "wreck": 0
+        }
+      }
+    ],
+    "survivors": {
+      "attacker": {},
+      "defender": {}
+    },
+    "debris": {
+      "metal": 0,
+      "crystal": 0
+    }
+  }
+}

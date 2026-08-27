@@ -1,0 +1,201 @@
+{
+  "schema_version": 2,
+  "report_id": "4",
+  "game_version": "1",
+  "server": "Oracle",
+  "date": "2025-09-26",
+  "notes": "",
+  "attacker": {
+    "tech_known": true,
+    "tech": {
+      "weapon": { "player": 200, "alliance": 70, "buff": 20 },
+      "shield": { "player": 200, "alliance": 70, "buff": 20 },
+      "armor": { "player": 200, "alliance": 70, "buff": 20 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 999999,
+      "light_fighter": 999999,
+      "heavy_fighter": 999999,
+      "cruiser": 600000,
+      "battleship": 600000,
+      "bomber": 600000,
+      "dreadnought": 600000,
+      "destroyer": 508000,
+      "death_star": 0,
+      "spy_probe": 0,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 0,
+      "large_recovery_vessel": 0,
+      "missile_chaser": 0
+    }
+  },
+  "defender": {
+    "tech_known": true,
+    "planet_skin": "none",
+    "tech": {
+      "weapon": { "player": 200, "alliance": 70, "buff": 0 },
+      "shield": { "player": 200, "alliance": 70, "buff": 0 },
+      "armor": { "player": 200, "alliance": 70, "buff": 0 }
+    },
+    "ships": {
+      "small_cargo": 0,
+      "large_cargo": 138647,
+      "light_fighter": 306490,
+      "heavy_fighter": 84631,
+      "cruiser": 37465,
+      "battleship": 340721,
+      "bomber": 6814,
+      "dreadnought": 16896,
+      "destroyer": 48527,
+      "death_star": 293,
+      "spy_probe": 200891,
+      "recovery_vessel": 0,
+      "colony_ship": 0,
+      "rocket_launcher": 0,
+      "light_laser": 0,
+      "heavy_laser": 0,
+      "gauss_cannon": 0,
+      "ion_cannon": 0,
+      "plasma_turret": 0,
+      "small_shield": 0,
+      "large_shield": 0,
+      "mining_vessel": 0,
+      "super_freighter": 24543,
+      "large_recovery_vessel": 15578,
+      "missile_chaser": 489
+    }
+  },
+  "outcome": {
+    "winner": "attacker",
+    "rounds": [
+      {
+        "round": 1,
+        "attacker": {
+          "losses": {
+            "large_cargo": 59214,
+            "light_fighter": 81983,
+            "heavy_fighter": 68429,
+            "cruiser": 16639,
+            "battleship": 961,
+            "bomber": 875,
+            "dreadnought": 883,
+            "destroyer": 639
+          },
+          "number_of_attack": 7586893,
+          "current_damage": 15745849673,
+          "shield_absorption": 428508160,
+          "wreck": 975887
+        },
+        "defender": {
+          "losses": {
+            "large_cargo": 130974,
+            "light_fighter": 300567,
+            "heavy_fighter": 80846,
+            "cruiser": 31483,
+            "battleship": 185386,
+            "bomber": 2626,
+            "dreadnought": 7295,
+            "destroyer": 10133,
+            "spy_probe": 199473,
+            "super_freighter": 15924,
+            "large_recovery_vessel": 11167,
+            "missile_chaser": 13
+          },
+          "number_of_attack": 1226141,
+          "current_damage": 7420890557,
+          "shield_absorption": 362707617,
+          "wreck": 229623
+        }
+      },
+      {
+        "round": 2,
+        "attacker": {
+          "losses": {
+            "large_cargo": 31787,
+            "light_fighter": 37102,
+            "heavy_fighter": 34107,
+            "cruiser": 9840,
+            "battleship": 1132,
+            "bomber": 905,
+            "dreadnought": 883,
+            "destroyer": 661
+          },
+          "number_of_attack": 6602999,
+          "current_damage": 14476917064,
+          "shield_absorption": 229106004,
+          "wreck": 245763
+        },
+        "defender": {
+          "losses": {
+            "large_cargo": 7673,
+            "light_fighter": 5923,
+            "heavy_fighter": 3785,
+            "cruiser": 5982,
+            "battleship": 155330,
+            "bomber": 4188,
+            "dreadnought": 9601,
+            "destroyer": 38364,
+            "spy_probe": 1418,
+            "super_freighter": 8619,
+            "large_recovery_vessel": 4411,
+            "missile_chaser": 469
+          },
+          "number_of_attack": 264089,
+          "current_damage": 6790070789,
+          "shield_absorption": 157406857,
+          "wreck": 116417
+        }
+      },
+      {
+        "round": 3,
+        "attacker": {
+          "losses": {
+            "large_cargo": 1413,
+            "light_fighter": 1349,
+            "heavy_fighter": 1312,
+            "cruiser": 838,
+            "battleship": 902,
+            "bomber": 891,
+            "dreadnought": 881,
+            "destroyer": 716
+          },
+          "number_of_attack": 2699061,
+          "current_damage": 10473295921,
+          "shield_absorption": 54292690,
+          "wreck": 335
+        },
+        "defender": {
+          "losses": {
+            "battleship": 5,
+            "destroyer": 30,
+            "death_star": 293,
+            "missile_chaser": 7
+          },
+          "number_of_attack": 8328,
+          "current_damage": 6099679030,
+          "shield_absorption": 5721166,
+          "wreck": 8302
+        }
+      }
+    ],
+    "survivors": {
+      "attacker": {},
+      "defender": {}
+    },
+    "debris": {
+      "metal": 5708008200,
+      "crystal": 2863182900
+    }
+  }
+}

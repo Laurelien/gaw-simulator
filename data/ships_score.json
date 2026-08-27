@@ -1,0 +1,42 @@
+{
+  "light_fighter": {
+    "score_init": 7477682,
+    "number": 150,
+    "score_final": 7478282
+  },
+  "heavy_fighter": {
+    "score_init": 7478282,
+    "number": 56,
+    "score_final": 7478842
+  },
+  "cruiser": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  },
+  "battleship": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  },
+  "bomber": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  },
+  "dreadnought": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  },
+  "destroyer": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  },
+  "death_star": {
+    "score_init": 0,
+    "number": 0,
+    "score_final": 0
+  }
+}

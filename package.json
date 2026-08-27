@@ -1,0 +1,34 @@
+{
+  "name": "gaw-simulator",
+  "private": true,
+  "type": "module",
+  "description": "Reconstruction du moteur de combat serveur (4X mobile) — Vue 3 + Web Worker.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate:ships": "node scripts/generate-ships.mjs",
+    "generate:frontend-ships": "node scripts/generate-frontend-ships.mjs",
+    "validate:montecarlo": "node scripts/validate-monte-carlo.mjs"
+  },
+  "dependencies": {
+    "pinia": "^2.3.0",
+    "tesseract.js": "^7.0.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.22",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.9",
+    "vue-tsc": "^2.2.0"
+  }
+}
